@@ -4,6 +4,7 @@ const nextConfig = {
   experimental: {
     optimizeCss: true,
     optimizePackageImports: ['lucide-react', '@radix-ui/react-icons'],
+    webpackBuildWorker: true,
   },
 
   compress: true,
